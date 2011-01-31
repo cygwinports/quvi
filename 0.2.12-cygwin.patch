@@ -1,0 +1,14 @@
+--- origsrc/quvi-0.2.12/configure.ac	2011-01-09 15:02:53.000000000 -0600
++++ src/quvi-0.2.12/configure.ac	2011-01-30 18:08:22.870522200 -0600
+@@ -38,7 +38,10 @@ LT_PREREQ([2.2])
+ # Host specific.
+ NO_UNDEFINED=
+ case "$host" in
+-    *-*-mingw32* | *-*-cygwin*)
++    *-*-cygwin*)
++        NO_UNDEFINED="-no-undefined"
++    ;;
++    *-*-mingw32*)
+         AC_DEFINE([HOST_W32], [1], [...])
+         host_w32=yes
+         if [ test x"$enable_shared" != "xno" ]; then
