@@ -1,0 +1,9 @@
+NAME="quvi"
+VERSION=0.4.2
+RELEASE=1
+CATEGORY="Video"
+SUMMARY="Flash Video download link parser tool"
+DESCRIPTION="quvi is a command line tool for parsing flash video download
+links. It supports Youtube and other similar video websites."
+HOMEPAGE="http://quvi.sourceforge.net/"
+SRC_URI="mirror://sourceforge/quvi/${NAME}-${VERSION}.tar.xz"
