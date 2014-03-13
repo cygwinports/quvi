@@ -1,5 +1,5 @@
 NAME="quvi"
-VERSION=0.4.2
+VERSION=0.9.5
 RELEASE=1
 CATEGORY="Video"
 SUMMARY="Flash Video download link parser tool"
